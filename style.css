@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(Bacoor-Campus-scaled.jpg);
+   background-position: 1500px;
+   
+    
+}
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    @media (max-width:700px){
+        height: 450px;
+        width: 300px;
+    }
+
+    @media (max-width:470px){
+        height: 350px;
+        width: 200px;
+    }
+
+
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 200px;
+    width: auto;
+  
+    @media (max-width:970px){
+
+        height: 150px;
+        
+    }
+
+    @media (max-width:870px){
+
+        height: 140px;
+        
+    }
+
+    @media (max-width:830px){
+
+        height: 125px;
+        
+    }
+
+    @media (max-width:790px){
+
+        height: 105px;
+        
+    }
+
+    @media (max-width:750px){
+
+       display: none;
+        
+    }
+}
+
+h1 {
+    color: #1b651b;
+
+    @media (max-width:700px){
+        font: 25px;
+    }
+
+    @media (max-width:470px){
+        font-size: 20px;
+    }
+
+}
+
+p {
+    @media (max-width:470px){
+       font-size: 12px;
+    }
+
+}
+
+input {
+  
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+
+    @media (max-width:700px){
+        width: 200px;
+        padding: 3px;
+        margin: 10px;
+    }
+
+    @media (max-width:470px){
+        width: 100px;
+        padding: 2px;
+        margin: 5px;
+     }
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    @media (max-width:470px){
+        gap: 1px;
+        margin-bottom: 2px;
+     }
+    
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    background: #1b651b;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #45a049;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
